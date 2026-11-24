@@ -1,0 +1,24 @@
+.informations__title {
+  margin: 0 0 20px;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.informations__list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.informations__list a {
+  color: var(--white);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.informations__list a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+.home__hero {
+  display: flex;
+  justify-content: center;
+  background: #e2e3ff;
+}
+
+.home__gallery {
+  margin: 0 auto;
+}
+
+.home__content {
+  padding-top: 80px;
+}
+
+.home__collections {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.home__collections img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.home__collections img:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 800px) {
+  .home__content {
+    padding-top: 48px;
+  }
+
+  .home__collections {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
