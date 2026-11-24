@@ -1,4 +1,4 @@
-# Digital Store — Projeto Final de Front-end
+# Digital Store | Projeto Final de Front-end
 
 Loja virtual **Digital Store (Drip Store)** desenvolvida em **React** como projeto final do curso de Front-end, seguindo a [documentação oficial](https://github.com/digitalcollegebr/projeto-digital-store) e o [design do Figma](https://www.figma.com/design/nUk0ihM3x4u8JQtxUoAEJf/DRIP-STORE---DIGITAL-COLLEGE--Copy-?node-id=22-30).
 
@@ -10,7 +10,7 @@ Loja virtual **Digital Store (Drip Store)** desenvolvida em **React** como proje
 - [Vitest](https://vitest.dev/) + [Testing Library](https://testing-library.com/) (testes)
 - ESLint
 
-## Como rodar
+## Como instalar
 
 Pré-requisito: **Node.js 20+**.
 
